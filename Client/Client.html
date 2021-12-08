@@ -4,21 +4,22 @@
 <head>
     <title>Client</title>
     <meta name="keyword" content="Urlaub">
-	<meta name="beschreibung" content="Reiseführer für San Sebastian">
-	<meta name="autor" content="Winand">
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="beschreibung" content="Reiseführer für San Sebastian">
+    <meta name="autor" content="Winand">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="script.js" defer> </script>
 </head>
 
 <body>
-    <form id= "myform">
-                    <label for="datumEingabe">Hier bitte das Datum eintragen: </label></br>
-                    <input type="date" id="datumEingabe" placeholder="heute ist Montag..">
-              
+    <p id="ausgabeID"></p>
+    <form id="myform">
+        <label for="datumEingabe">Hier bitte das Datum eintragen: </label></br>
+        <input type="date" id="datumEingabe" placeholder="heute ist Montag..">
+
     </form>
-                <button id="hinzufuegenButton" onclick="return false">Weitergeben an den Server</button>
+    <button id="hinzufuegenButton" onclick="return false">Weitergeben an den Server</button>
 
 </body>
 
